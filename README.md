@@ -1,5 +1,5 @@
 # GeneralEnvConfig
-my configure files, such as ~/.bashrc, ~/.vimrc etc.
+My configure files, such as ~/.bashrc, ~/.vimrc etc.
 
 1. **bash**
    
@@ -17,7 +17,7 @@ my configure files, such as ~/.bashrc, ~/.vimrc etc.
    ```
    rsync -avzP R/Makevars ~/.R/
    ```
-5. **vim**
+3. **vim**
 
    First, rsync the files to corresponding directories. Maybe certain directories should be created first, if no exist.
    ```

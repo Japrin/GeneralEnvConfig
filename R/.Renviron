@@ -1,0 +1,1 @@
+CFLAGS="-I/path/to/04.lib/R/4.4.2/RcppArmadillo/include"
