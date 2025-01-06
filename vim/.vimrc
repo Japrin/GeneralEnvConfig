@@ -106,6 +106,11 @@ Plugin 'vim-scripts/winmanager'
 """"""""""""""""""""""""
 " filetype plugin for CSV files
 Plugin 'chrisbra/csv.vim'
+" have a fun
+" Execute :Matrix to start; press any key a few times to exi
+Plugin 'uguu-org/vim-matrix-screensaver'
+" To start the game, press <Leader>te
+Plugin 'vim-scripts/TeTrIs.vim'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
@@ -330,10 +335,10 @@ let g:SuperTabClosePreviewOnPopupClose = 1
 " showmarks setting
 """"""""""""""""""""""""""""""""""""""""""""""""
 " By default the following keymappings are defined:
-   \mt : Toggles ShowMarks on and off.
-   \mh : Hides an individual mark.
-   \ma : Hides all marks in the current buffer.
-   \mm : Places the next available mark.
+"   \mt : Toggles ShowMarks on and off.
+"   \mh : Hides an individual mark.
+"   \ma : Hides all marks in the current buffer.
+"   \mm : Places the next available mark.
 " " Enable ShowMarks
 let showmarks_enable = 1
 " Show which marks
